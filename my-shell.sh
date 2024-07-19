@@ -14,7 +14,7 @@ sudo ln -sf "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUST
 
 # Configurando o tema Spaceship no .zshrc
 echo "Configurando tema Spaceship no .zshrc"
-sudo sed -i 's/ZSH_THEME=".*"/ZSH_THEME="spaceship"/' "/root/.zshrc"
+sed -i 's/ZSH_THEME="rubbyrussel"/ZSH_THEME="spaceship"/' $HOME/.zshrc
 
 # Adicionando configuração extra ao .zshrc
 cat << 'EOF' | sudo tee -a "$HOME/.zshrc"
