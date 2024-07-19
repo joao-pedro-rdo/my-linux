@@ -48,7 +48,5 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 EOF
 
-# Instruções para o usuário
-echo "Para configurar o Zsh como shell padrão, vá em: Preferências -> Perfil -> Comando -> Personalizado e defina como 'zsh'"
 echo "O script de instalação foi concluído com sucesso!"
 
