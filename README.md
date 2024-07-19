@@ -2,8 +2,15 @@
 
 Este repositório tem a finalidade de agilizar o processo de instalação e reunir todos os passos necessários para configurar meu Linux. Como frequentemente troco de desktop Linux, este repositório serve como uma referência rápida e prática para manter minha configuração.
 
-## Instalação do oh-my-zsh + Dracula
+## Sumário
 
+1. [Instalação do oh-my-zsh + Dracula](#instalação-do-oh-my-zsh--dracula)
+   - [Configurar o Zsh como Shell Padrão](#passo-1-configurar-o-zsh-como-shell-padrão)
+   - [Ordem de Instalação](#ordem-de-instalação)
+2. [Artigo Base](#artigo-base)
+
+## Instalação do oh-my-zsh + Dracula 
+(Necessita de mais testes)
 Para um melhor funcionamento, todos os scripts devem estar no diretório home. Alguns ainda precisam de ajustes e mais testes.
 
 ### Passo 1: Configurar o Zsh como Shell Padrão
@@ -15,6 +22,19 @@ Para um melhor funcionamento, todos os scripts devem estar no diretório home. A
    - Reinicie o processo de configuração.
    - Exclua todos os arquivos de dump do zsh, exceto: `.zshrc`, `.zshrc_history`, `profile` e os arquivos do bash.
    - Retorne ao passo 1.
+
+### Ordem de Instalação
+
+1. **install-zsh.sh**: Script para instalar o Zsh.
+   - Execute o script com o comando: `sh install-zsh.sh`
+
+2. **install-dracula.sh**: Script para instalar o tema Dracula.
+   - Execute o script com o comando: `sh install-dracula.sh`
+
+3. **my-shell.sh**: Script para configurar o shell personalizado.
+   - Execute o script com o comando: `sh my-shell.sh`
+   - (FASLTA CONFIGURAR O ZSH THEME SPACESHIP)
+
 
 ### Artigo Base
 - [Terminal com Oh My Zsh, Spaceship, Dracula e mais](https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/)
