@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#  TEM QUE ESTAR NO DIRETORIO HOME
+
 # Definindo variável ZSH_CUSTOM corretamente
 ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 
