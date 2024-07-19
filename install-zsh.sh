@@ -13,3 +13,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # Alterando o shell padrão para Zsh
 chsh -s $(which zsh)
 
+
+# Instruções para o usuário
+echo "Para configurar o Zsh como shell padrão, vá em: Preferências -> Perfil -> Comando -> Personalizado e defina como 'zsh'"
+
