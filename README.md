@@ -9,6 +9,12 @@ Este repositório tem a finalidade de agilizar o processo de instalação e reun
    - [Ordem de Instalação](#ordem-de-instalação)
 2. [Artigo Base](#artigo-base)
 
+## Instalar Pacotes Essenciais
+No arquivo `install-packages.sh` estão listados os pacotes essenciais que costumo instalar em um novo sistema Linux. Para instalar, execute o comando:
+```bash
+bash install-packages.sh
+```
+
 ## Instalação do oh-my-zsh + Dracula 
 (Necessita de mais testes)
 Para um melhor funcionamento, todos os scripts devem estar no diretório home. Alguns ainda precisam de ajustes e mais testes.
