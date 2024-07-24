@@ -4,10 +4,11 @@ Este repositório tem a finalidade de agilizar o processo de instalação e reun
 
 ## Sumário
 
-1. [Instalação do oh-my-zsh + Dracula](#instalação-do-oh-my-zsh--dracula)
+1. [Instalação de pacotes essenciais](#instalar-pacotes-essenciais)
+2. [Instalação do oh-my-zsh + Dracula](#instalação-do-oh-my-zsh--dracula)
    - [Configurar o Zsh como Shell Padrão](#passo-1-configurar-o-zsh-como-shell-padrão)
    - [Ordem de Instalação](#ordem-de-instalação)
-2. [Artigo Base](#artigo-base)
+3. [Artigo Base](#artigo-base)
 
 ## Instalar Pacotes Essenciais
 No arquivo `install-packages.sh` estão listados os pacotes essenciais que costumo instalar em um novo sistema Linux. Para instalar, execute o comando:
