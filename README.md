@@ -40,7 +40,7 @@ Para um melhor funcionamento, todos os scripts devem estar no diretório home. A
 
 3. **my-shell.sh**: Script para configurar o shell personalizado.
    - Execute o script com o comando: `sh my-shell.sh`
-   - (FASLTA CONFIGURAR O ZSH THEME SPACESHIP)
+   - (FALTA CONFIGURAR O ZSH THEME SPACESHIP)
 
 
 ### Artigo Base
